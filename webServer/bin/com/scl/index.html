@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+ <head>
+  <meta charset="UTF-8">
+  <meta name="Generator" content="EditPlus®">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="">
+  <meta name="Description" content="">
+  <title>请求报文</title>
+ </head>
+ <body>
+	<center>
+			<br/>
+			<h7>GET 请求</h7>
+			<form action="get" method="get">
+				<p>姓名: <input type="text" name="name" /></p>
+				<p>密码: <input type="passwd" name="passwd" /></p>
+				<input type="submit" value="提交" />
+			</form>
+			<br/>
+			<br/>
+			<h7>POST 请求1</h7>
+			<br/>
+			<form action="post1" method="post">
+				<p>姓名: <input type="text" name="name" /></p>
+				<p>密码: <input type="password" name="passwd" /></p>
+				<input type="submit" value="提交" />
+			</form>
+			<br/>
+			<br/>
+			<h7>POST 请求2</h7>
+			<br/>
+			<form action="post2" method="post" enctype="multipart/form-data">
+				<p>姓名: <input type="text" name="name" /></p>
+				<p>密码: <input type="password" name="passwd" /></p>
+				<p>文件: <input type="file" name="uploadfile"/>
+				<input type="submit" value="提交" />
+			</form>
+			<br/>
+	</center>
+ </body>
+</html>
